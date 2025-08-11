@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Delicious Bites</title>
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        scroll-behavior: smooth;
+        background-color: #fff8e7;
+    }
+    /* Navbar */
+    nav {
+        background-color: #ff914d;
+        padding: 10px;
+        position: sticky;
+        top: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 15px;
+        font-weight: bold;
+    }
+    nav a:hover {
+        text-decoration: underline;
+    }
+    header {
+        text-align: center;
+        padding: 20px;
+        color: white;
+        background-color: #ff5722;
+    }
+    section {
+        max-width: 900px;
+        margin: auto;
+        padding: 20px;
+    }
+    h2 {
+        border-bottom: 2px solid #ff914d;
+        padding-bottom: 5px;
+        margin-top: 40px;
+        color: #ff5722;
+    }
+    .menu-item {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 0;
+        border-bottom: 1px dotted #ccc;
+        align-items: center;
+    }
+    .menu-item img {
+        width: 150px;
+        height: 120px;
+        border-radius: 8px;
+        margin-right: 10px;
+    }
+    .item-info {
+        display: flex;
+        align-items: center;
+    }
+    .price {
+        font-weight: bold;
+        color: #ff5722;
+    }
+    footer {
+        text-align: center;
+        background-color: #ff914d;
+        color: white;
+        padding: 10px 0;
+        margin-top: 30px;
+    }
+</style>
+</head>
+<body>
+
+<nav>
+    <div>
+        <a href="#starters">Starters</a>
+        <a href="#main-course">Main Course</a>
+        <a href="#desserts">Desserts</a>
+    </div>
+    <div>
+        <a href="login.html">Login</a>
+    </div>
+</nav>
+
+<header>
+    <h1>🍴 Delicious Bites 🍴</h1>
+    <p>Your favorite food, fresh & tasty!</p>
+</header>
+
+<section id="starters">
+    <h2>Starters</h2>
+    <div class="menu-item">
+        <div class="item-info">
+            <img src="tomato_soup.jpeg" alt="Tomato Soup">
+            <span>Tomato Soup</span>
+        </div>
+        <span class="price">₹120</span>
+    </div>
+    <div class="menu-item">
+        <div class="item-info">
+            <img src="green_salad.jpeg" alt="Green Salad">
+            <span>Green Salad</span>
+        </div>
+        <span class="price">₹150</span>
+    </div>
+    <div class="menu-item">
+        <div class="item-info">
+            <img src="starters.jpeg" alt="Spring Rolls">
+            <span>Spring Rolls</span>
+        </div>
+        <span class="price">₹180</span>
+    </div>
+</section>
+
+<section id="main-course">
+    <h2>Main Course</h2>
+    <div class="menu-item">
+        <div class="item-info">
+            <img src="starters.jpeg" alt="Paneer Butter Masala">
+            <span>Paneer Butter Masala</span>
+        </div>
+        <span class="price">₹250</span>
+    </div>
+    <div class="menu-item">
+        <div class="item-info">
+            <img src="tomato_soup.jpeg" alt="Veg Biryani">
+            <span>Veg Biryani</span>
+        </div>
+        <span class="price">₹200</span>
+    </div>
+    <div class="menu-item">
+        <div class="item-info">
+            <img src="green_salad.jpeg" alt="Dal Tadka">
+            <span>Dal Tadka</span>
+        </div>
+        <span class="price">₹180</span>
+    </div>
+</section>
+
+<section id="desserts">
+    <h2>Desserts</h2>
+    <div class="menu-item">
+        <div class="item-info">
+            <img src="tomato_soup.jpeg" alt="Chocolate Ice Cream">
+            <span>Chocolate Ice Cream</span>
+        </div>
+        <span class="price">₹100</span>
+    </div>
+    <div class="menu-item">
+        <div class="item-info">
+            <img src="green_salad.jpeg" alt="Gulab Jamun">
+            <span>Gulab Jamun</span>
+        </div>
+        <span class="price">₹90</span>
+    </div>
+    <div class="menu-item">
+        <div class="item-info">
+            <img src="starters.jpeg" alt="Rasgulla">
+            <span>Rasgulla</span>
+        </div>
+        <span class="price">₹85</span>
+    </div>
+</section>
+
+<footer>
+    <p>© 2025 Delicious Bites | All rights reserved</p>
+</footer>
+
+</body>
+</html>
